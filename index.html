@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prisma IA Trader</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .scrollbar-thin {
+        scrollbar-width: thin;
+        scrollbar-color: #6d28d9 #1e1b4b;
+      }
+      .scrollbar-thin::-webkit-scrollbar {
+        width: 8px;
+      }
+      .scrollbar-thin::-webkit-scrollbar-track {
+        background: #1e1b4b;
+      }
+      .scrollbar-thin::-webkit-scrollbar-thumb {
+        background-color: #6d28d9;
+        border-radius: 4px;
+        border: 2px solid #1e1b4b;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-indigo-950">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

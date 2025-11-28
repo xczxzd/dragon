@@ -1,0 +1,7 @@
+{
+  "name": "Prisma IA Trader",
+  "description": "An advanced trading assistant that analyzes real-time market data from screen captures. It uses multiple trading strategies, including Heikin-Ashi, MACD, ADX, and advanced candlestick patterns, to provide high-probability trading signals (CALL/PUT) with detailed technical justifications.",
+  "requestFramePermissions": [
+    "display-capture"
+  ]
+}
